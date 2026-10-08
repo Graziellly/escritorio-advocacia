@@ -14,6 +14,12 @@ O projeto apresenta uma identidade visual sofisticada, com cores sóbrias, tipog
 - React Icons
 - Git e GitHub
 
+## 🌐 Site publicado
+
+O projeto está disponível online através do Firebase Hosting.
+
+**🔗 Acesse o site:** [Almeida Costa Advogados](https://almeida-costa-advogados.web.app)
+
 ## ✨ Funcionalidades
 
 - Interface moderna e responsiva
