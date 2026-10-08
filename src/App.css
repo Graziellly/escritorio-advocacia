@@ -7034,3 +7034,103 @@ img {
     height: 45px;
   }
 }
+
+/* =========================================
+   LOGO ALMEIDA COSTA — DESKTOP E MOBILE
+========================================= */
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 48px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* Logo no cabeçalho */
+.header .brand-logo {
+  height: 43px;
+}
+
+/* Logo no rodapé */
+.footer .brand-logo {
+  height: 65px;
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .header .brand-logo {
+    height: 38px;
+  }
+
+  .footer .brand-logo {
+    height: 55px;
+  }
+}
+
+/* CELULAR */
+@media (max-width: 650px) {
+  .header .brand-logo {
+    height: 31px;
+    max-width: 225px;
+  }
+
+  .footer .brand-logo {
+    height: 46px;
+    max-width: 100%;
+  }
+}
+
+/* LOGO MAIOR — COMPUTADOR */
+
+.header .brand-logo {
+  height: 58px;
+  width: auto;
+  max-width: 100%;
+}
+
+.footer .brand-logo {
+  height: 80px;
+  width: auto;
+}
+
+/* LOGO MAIOR — CELULAR */
+
+@media (max-width: 650px) {
+  .header .brand-logo {
+    height: 43px;
+    width: auto;
+    max-width: 245px;
+  }
+
+  .footer .brand-logo {
+    height: 60px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/* LOGO — CELULAR */
+@media (max-width: 650px) {
+  .header .brand-logo {
+    height: 50px;
+    width: auto;
+    max-width: 260px;
+    object-fit: contain;
+  }
+
+  .footer .brand-logo {
+    height: 70px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}

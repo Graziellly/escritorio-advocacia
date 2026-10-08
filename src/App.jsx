@@ -15,6 +15,7 @@ import {
 
 import "./App.css";
 import escritorioImg from "./assets/escritorio.jpg";
+import logoAlmeida from "./assets/logo2.png";
 
 const areas = [
   {
@@ -124,18 +125,12 @@ function App() {
       <header className="header">
         <div className="container header-inner">
 
-          <a
-            href="#inicio"
-            className="brand"
-            onClick={closeMenu}
-            aria-label="Almeida Costa Advogados"
-          >
-            <div className="brand-mark">AC</div>
-
-            <div className="brand-text">
-              <strong>ALMEIDA COSTA</strong>
-              <span>ADVOGADOS</span>
-            </div>
+          <a href="#inicio" className="brand" onClick={closeMenu}>
+          <img
+          src={logoAlmeida}
+          alt="Almeida Costa Advogados"
+          className="brand-logo"
+          />
           </a>
 
           <nav className={menuOpen ? "navigation open" : "navigation"}>
@@ -754,17 +749,12 @@ function App() {
 
           <div className="footer-brand">
 
-            <a href="#inicio" className="brand">
-
-              <div className="brand-mark">
-                AC
-              </div>
-
-              <div className="brand-text">
-                <strong>ALMEIDA COSTA</strong>
-                <span>ADVOGADOS</span>
-              </div>
-
+            <a href="#inicio" className="brand" onClick={closeMenu}>
+            <img
+            src={logoAlmeida}
+            alt="Almeida Costa Advogados"
+            className="brand-logo"
+            />
             </a>
 
             <p>
