@@ -1,16 +1,73 @@
-# React + Vite
+# ⚖️ Almeida Costa Advogados
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Site institucional de um escritório de advocacia, desenvolvido com foco em elegância, profissionalismo, responsividade e experiência do usuário.
 
-Currently, two official plugins are available:
+O projeto apresenta uma identidade visual sofisticada, com cores sóbrias, tipografia elegante e animações suaves.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💻 Tecnologias utilizadas
 
-## React Compiler
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Icons
+- Git e GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the Oxlint configuration
+- Interface moderna e responsiva
+- Menu de navegação adaptado para dispositivos móveis
+- Animações suaves durante a navegação
+- Apresentação institucional do escritório
+- Seção de áreas de atuação jurídica
+- Apresentação da equipe
+- Seção de conteúdos jurídicos
+- Informações de contato
+- Efeitos interativos e transições visuais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🎨 Design
+
+O projeto utiliza uma identidade visual com tons de verde-escuro, preto, bege e dourado, transmitindo seriedade, confiança e sofisticação.
+
+A interface foi desenvolvida para proporcionar uma navegação intuitiva em computadores, tablets e smartphones.
+
+## 🚀 Executando o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Graziellly/escritorio-advocacia.git
+```
+
+Acesse a pasta:
+
+```bash
+cd escritorio-advocacia
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor:
+
+```bash
+npm run dev
+```
+
+## 👩‍💻 Desenvolvedora
+
+**Maria Grazielly**
+
+Estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento Front-end e evolução para Full Stack.
+
+**GitHub:** https://github.com/Graziellly
+
+## 📌 Sobre o projeto
+
+Projeto desenvolvido para fins de estudo, prática profissional e composição de portfólio.
+
+*Os nomes, dados profissionais e informações institucionais apresentados são ilustrativos e devem ser substituídos antes de qualquer utilização comercial.*
